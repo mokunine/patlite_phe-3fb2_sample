@@ -1,0 +1,7 @@
+# Ignore directory
+/build
+/dist
+
+# Ignore extention
+*.spec
+*.exe
