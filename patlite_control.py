@@ -1,8 +1,8 @@
 ###############################################################################
 # Name    : PATLITE PHE-3B2 serial controller
 # Author  : mokunine
-# Date    : 2022/07/10
-# Version : 0.0.1
+# Date    : 2022/08/19
+# Version : 0.0.2
 ###############################################################################
 
 import sys
@@ -60,12 +60,12 @@ elif args.red == 2:
     data[1] |= 1 << 1
 
 if args.yellow == 1:
-    data[0] |= 1 << 2
+    data[0] |= 1 << 1
 elif args.yellow == 2:
     data[1] |= 1 << 2
 
 if args.green == 1:
-    data[0] |= 1 << 1 
+    data[0] |= 1 << 2 
 elif args.green == 2:
     data[1] |= 1 << 3 
 
